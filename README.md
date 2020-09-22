@@ -1,4 +1,7 @@
 # sheet-to-array-of-objects
+
+![npm](https://img.shields.io/npm/v/sheets-to-array-of-objects)
+
 Convert Public Google Spreadsheet into JavaScript Array of Objects
 
 Fork of [hotelsoft/sheet-to-array-of-objects](https://github.com/hotelsoft/sheet-to-array-of-objects). 
