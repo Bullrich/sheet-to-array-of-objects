@@ -1,11 +1,11 @@
 {
 	"name": "sheets-to-array-of-objects",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Convert Public Google Spreadsheet into JavaScript Array of Objects. Works with multipage documents",
 	"main": "./lib/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Bullrich/sheet-to-array-of-objects.git"
+		"url": "git+https://github.com/Bullrich/sheets-to-array-of-objects.git"
 	},
 	"keywords": [
 		"sheet",
@@ -15,7 +15,7 @@
 	"author": "Javier Bullrich <javier@bullrich.dev>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Bullrich/sheet-to-array-of-objects/issues"
+		"url": "https://github.com/Bullrich/sheets-to-array-of-objects/issues"
 	},
-	"homepage": "https://github.com/Bullrich/sheet-to-array-of-objects#readme"
+	"homepage": "https://github.com/Bullrich/sheets-to-array-of-objects#readme"
 }

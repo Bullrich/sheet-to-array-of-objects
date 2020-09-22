@@ -1,0 +1,21 @@
+name: Create Tag
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # NOTE @v2 uses the token as an auth http header. Set it to
+          # a Personal Access Token instead of secrets.GITHUB_TOKEN
+          # so that tag pushes trigger repo push events.
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      - uses: Klemensas/action-autotag@stable
+        with:
+          GITHUB_TOKEN: "${{ secrets.PERSONAL_ACCESS_TOKEN }}"
+          tag_prefix: "v"
