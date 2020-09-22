@@ -1,24 +1,21 @@
 {
-	"name": "sheet-to-array-of-objects",
+	"name": "sheets-to-array-of-objects",
 	"version": "1.0.1",
-	"description": "Convert Public Google Spreadsheet into JavaScript Array of Objects",
+	"description": "Convert Public Google Spreadsheet into JavaScript Array of Objects. Works with multipage documents",
 	"main": "./lib/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hotelsoft/sheet-to-array-of-objects.git"
+		"url": "git+https://github.com/Bullrich/sheet-to-array-of-objects.git"
 	},
 	"keywords": [
 		"sheet",
 		"json",
 		"google"
 	],
-	"author": "Narendra Sisodiya <narendra@narendrasisodiya.com>",
+	"author": "Javier Bullrich <javier@bullrich.dev>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/hotelsoft/sheet-to-array-of-objects/issues"
+		"url": "https://github.com/Bullrich/sheet-to-array-of-objects/issues"
 	},
-	"homepage": "https://github.com/hotelsoft/sheet-to-array-of-objects#readme"
+	"homepage": "https://github.com/Bullrich/sheet-to-array-of-objects#readme"
 }

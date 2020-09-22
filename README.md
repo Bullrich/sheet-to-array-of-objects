@@ -1,6 +1,9 @@
 # sheet-to-array-of-objects
 Convert Public Google Spreadsheet into JavaScript Array of Objects
 
+Fork of [hotelsoft/sheet-to-array-of-objects](https://github.com/hotelsoft/sheet-to-array-of-objects). 
+This version allows multi page download and can also return the name of the downloaded page.
+
 # What
 
 ![alt pic](https://raw.githubusercontent.com/hotelsoft/Sheet2AOB/master/pic.png)
@@ -13,7 +16,7 @@ npm install sheet-to-array-of-objects
 
 # Try
 
-```js
+```
 var SheetToArrayOfObjects = require('sheet-to-array-of-objects');
 SheetToArrayOfObjects({
 	key: "1GMWX3mMBPRnaIC3lTlRQfDhayELKFmpJWLYu2eM20dQ"
@@ -25,13 +28,3 @@ SheetToArrayOfObjects({
 	console.log($`Got json for ${title}`, data);
 });
 ```
-
-If the document has more than one tab, you can specify which tab by using the following:
-```js
-{
-	key: "1GMWX3mMBPRnaIC3lTlRQfDhayELKFmpJWLYu2eM20dQ",
-	index: 1
-}
-```
-
-By default, it is 1.
